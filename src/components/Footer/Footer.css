@@ -1,0 +1,151 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding: 40px 80px;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-links {
+  width: 200px;
+}
+
+.footer-links h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-info p:first-child {
+  margin-bottom: 10px;
+}
+
+.footer-links ul img{
+  width: 100px;
+  height: 50%;
+  margin: 5px;
+}
+
+.footer-links ul li p{
+  cursor: pointer;
+}
+
+.footer-links ul li p:hover{
+  color: black;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.footer-links div span{
+  color: black;
+}
+
+.social-links img{
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 991px) {
+  .footer {
+    padding: 30px 60px;
+    font-size: 12px;
+  }
+  
+  .footer-links {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-info {
+    margin-top: 30px;
+  }
+  
+  .footer-links ul img{
+    width: 80px;
+    margin: 5px;
+  }
+  
+  .social-links img{
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+  }
+}
+
+/* Small devices (phones, 576px and up) */
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 20px 40px;
+    font-size: 10px;
+  }
+  
+  .footer-links h3 {
+    font-size: 14px;
+  }
+  
+  .footer-links ul img{
+    width: 60px;
+    margin: 3px;
+  }
+  
+  .social-links img{
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+  }
+}
+
+/* Extra small devices (phones, 575px and below) */
+@media screen and (max-width: 575px) {
+  .footer {
+    padding: 15px 20px;
+    font-size: 8px;
+  }
+  
+  .footer-links h3 {
+    font-size: 12px;
+  }
+  
+  .footer-links ul img{
+    width: 50px;
+    margin: 3px;
+  }
+  
+  .social-links img{
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+  }
+}

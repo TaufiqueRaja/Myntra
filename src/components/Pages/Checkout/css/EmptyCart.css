@@ -1,0 +1,32 @@
+.notLogin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .notLogin h3 {
+    font-weight: 600;
+    color: rgb(39, 39, 39);
+  }
+  .notLogin p {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+  }
+  .notLogin img {
+    width: 150px;
+  }
+  .notLogin button {
+    padding: 10px 13px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: white;
+    font-weight: 600;
+    color: #ff527b;
+    border: 1px solid #ff527b;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+  }

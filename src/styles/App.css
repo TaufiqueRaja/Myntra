@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-holder {
+  margin-left: 50px;
+}
+
+.icon-holder img {
+  height: 70px;
+  width: 50;
+}
+
+.inputSearch {
+  background-color: rgb(245, 245, 246);
+  width: 304px;
+  -webkit-front-smoothing: antialiased;
+  -webkit-rtl-ordering: logical;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  margin-right: 20px;
+  color: black;
+}
+
+.cart-holder {
+  margin: 10px;
+  font-size: 30px;
+  position: fixed;
+  z-index: 1000;
+  color: white;
+}
+
+.mainDisplay {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
+@media (max-width: 1100px) {
+  .product-tile-holder {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+.content {
+  padding: 0 10px;
+  
+}
+
+.prices {
+  display: flex;
+}
+
+.prices div {
+  margin: 5px 10px;
+}
+
+
+.filter-holder {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.filter-holder div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.filter-holder .filter_group {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+
+#product-modal {
+  margin: 0 50px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#otherImages {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+#otherImages img {
+  height: 431px;
+  width: 321px;
+  object-fit: contain;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.route {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.cartPage {
+  margin: 0 50px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.calculation {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.size-option:hover {
+  border: 1px solid red;
+}
+
+.size-option {
+  background: #fff;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.notLogin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.notLogin h3 {
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+}
+.notLogin p {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+}
+.notLogin img {
+  width: 150px;
+}
+.notLogin button {
+  padding: 10px 13px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: white;
+  font-weight: 600;
+  color: #ff527b;
+  border: 1px solid #ff527b;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: capitalize;
+}

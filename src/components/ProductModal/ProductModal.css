@@ -1,0 +1,160 @@
+.route {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#product-modal {
+  margin: 0 50px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.descrition_txt{
+  font-weight: 500;
+}
+
+.size-option,.size-active {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+.size-active,.size-option:hover{
+  color: #FF3F6C;
+  border-color: #FF3F6C;
+}
+
+#otherImages {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+#otherImages img {
+  height: 420px;
+  width: 310px;
+  object-fit: contain;
+}
+.add__cart__btn {
+  padding: 10px;
+  margin: 5px 5px;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #FF3F6C;
+}
+.add__cart__btn:hover{
+  background-color: #da5f7c;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.details__header {
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+@media screen and (max-width:1050px) {
+ #otherImages img{
+  height: 330px;
+  width: 244px;
+  }
+} 
+
+@media screen and (max-width:950px) {
+  #otherImages img{
+    height: 300px;
+    width: 225px;
+   }
+   
+.size-option,.size-active {
+  height: 32px;
+    width: 32px;
+  }
+
+} 
+@media screen and (max-width:900px) {
+  #otherImages img{
+    height: 284px;
+    width: 211px;
+   }
+   .details {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  #otherImages img{
+    height: 250px;
+    width: 170px;
+   }
+}
+
+@media screen and (max-width:770px) {
+  #otherImages img{
+    height: 231px;
+    width: 148px;
+   }
+  .size-option, .size-active {
+    height: 26px;
+    width: 28px;
+  }
+  .details p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:670px) {
+  #otherImages img{
+    height: 195px;
+    width: 113px;
+   }
+   .details {
+    font-size: 10px;
+}
+.size-option, .size-active {
+  height: 26px;
+  width: 24px;
+}
+}
+@media screen and (max-width:600px) {
+  #otherImages img{
+    height: 185px;
+    width: 113px;
+   }
+   .details {
+    font-size: 10px;
+}
+.size-option, .size-active {
+  height: 26px;
+  width: 24px;
+}
+#otherImages {
+  gap: 5px;
+}
+#product-modal {
+  margin: 0px 15px;
+}
+}
+
+@media screen and (max-width:500px) {
+  
+  #otherImages img{
+    height: 186px;
+    width: 135px;
+   }
+   #product-modal {
+    margin: 0 50px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+}
+}

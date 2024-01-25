@@ -1,0 +1,19 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    gap: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #313131bf;
+    color: white;
+}
+p{
+    font-weight: 700;
+    font-size: 20px;
+}

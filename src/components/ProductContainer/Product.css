@@ -1,0 +1,34 @@
+.image-conatiner{
+    display: grid;
+    /* grid-template-columns: repeat(8,1fr); */
+    margin-top: 50px;
+    width: 100%;
+    place-items: center;
+    justify-content: space-evenly;
+}
+.image-conatiner img{
+    width: 100%;
+}
+.DealHeading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+@media screen and (max-width:900px) {
+    .image-conatiner{
+        grid-template-columns: repeat(4,1fr) !important; 
+    }
+
+}
+@media screen and (max-width:450px) {
+    .image-conatiner{
+        grid-template-columns: repeat(2,1fr) !important; 
+        overflow: hidden ;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+}

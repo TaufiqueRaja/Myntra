@@ -1,0 +1,61 @@
+
+/* Here is the modified code with improved styling:
+card.css */
+.container {
+width: 95%;
+
+margin: 20px;
+}
+.cartPage {
+display: flex;
+gap: 20px;
+}
+.cartItemsList {
+flex: 1;
+}
+.price_details {
+flex: 0.4;
+
+padding: 20px;
+background: #fff;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.price_heading {
+text-align: center;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.cartItems_heading {
+text-align: center;
+
+font-weight: 600;
+margin-bottom: 10px;
+}
+.calculation {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.order_Btn {
+padding: 10px 20px;
+
+background: #d976bf;
+
+color: #fff;
+
+border: none;
+border-radius: 4px;
+
+cursor: pointer;
+transition: background 0.3s;
+}
+.order_Btn:hover {
+background: #892d71;
+}
+/* Card.css:
+Add box-shadow and border-radius to make cards look better */
+.card {
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+border-radius: 4px;
+}

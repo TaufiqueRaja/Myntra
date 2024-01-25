@@ -1,0 +1,26 @@
+.image-box{
+    height: 80vh;
+    
+}
+
+.image-box img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%;  */
+  height: 60vh;
+}
+#btn1{
+    color: white;
+    font-weight: 600;
+    background-color: #37b9f1;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 8%;
+    height: 6%;
+}
+.image-box {
+    text-align: center;
+    font-weight: 700;
+}
+

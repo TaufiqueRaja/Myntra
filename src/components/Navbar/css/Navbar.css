@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap');
+
+:root{
+    --red-border-size:3px;
+}
+*{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    background-color: #fff;
+    z-index: 999;
+    position: sticky;
+    top:0;
+}
+.leftNavGroup,.rightNavGroup,.sm{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.logo img{
+    width: 53px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.capital{
+    text-transform: capitalize;
+}
+.SignoutBtn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.list-item{
+    padding: 28px 17px 28px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+.list-item:hover {
+    border-bottom: var(--red-border-size) solid red;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.list-item sup{
+    color: #ff3f6c;
+    text-transform: uppercase;
+}
+
+.navSearch{
+    background-color: #f5f5f6;
+    margin: 0px 10px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.searchIcon{
+    margin: 5px 5px;
+}
+.navSearch input{
+    background-color: transparent;
+    border: none;
+    margin: 0px 10px;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    overflow: hidden;
+}
+
+.profile span{
+    display: block;
+}
+.NavIcons{
+    display: flex;
+    
+}
+.profileIcons{
+    font-size: 22px;
+}
+
+.nameCap{
+    text-transform: capitalize;
+}
+
+.profile,.menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+.profile:first-child:hover{
+    border-bottom: var(--red-border-size) solid red;
+    padding-bottom: calc(20px - var(--red-border-size));
+}
+
+.list-item:first-child:hover {
+    border-bottom: var(--red-border-size) solid #ee5f73;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.list-item:nth-child(2):hover {
+    border-bottom: var(--red-border-size) solid #fb56c1;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.list-item:nth-child(3):hover {
+    border-bottom: var(--red-border-size) solid #f26a10;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.list-item:nth-child(4):hover {
+    border-bottom: var(--red-border-size) solid #f2c210;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.list-item:nth-child(5):hover {
+    border-bottom: var(--red-border-size) solid #0db7af;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.list-item:nth-child(6):hover {
+    border-bottom: var(--red-border-size) solid #ff3f6c;
+    padding-bottom: calc(28px - var(--red-border-size));
+}
+
+.cart-holder{
+    /* color: black;
+    font-size: 10px; */
+    position: absolute;
+    /* left: 1rem; */
+    width: 1rem;
+    height: 1rem;
+    font-size: .9rem;
+    border-radius: 100%;
+    background: #FF3F6C;
+    color: white;
+    display: flex;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: 600; */
+    top: 6px;
+    /* left: 1px; */
+    right: 14px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.menu-icon{
+    height: 18px;
+    width: 18px;
+}
+
+.sm-active{
+    display: none;
+}
+.user__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3f3947;
+    padding: 22px 20px 4px;
+    color: #fff;
+}
+.user__icon__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.user__icon__box svg{
+    height: 36px;
+    width: 36px;
+    color: black;
+}
+.user__name{
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+.closeBtn svg{
+    width: 22px;
+    height: 22px;
+}
+
+.logo_sm{
+    color: #424553;
+    font-weight: 700;
+    text-decoration: none;
+}
+.signout{
+    display: none;
+}
+
+@media screen and (max-width:1175px) {
+    .navSearch{
+        width: 100%;
+    }
+    .signout{
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width:1050px) {
+    body:has(.sm-active){
+       overflow: hidden; 
+    }
+    .user,.navSearch input,.profile span{
+        display: none;
+    }
+    .leftNavGroup{
+        position: absolute;
+        left: -100%;
+    }
+    .leftNavGroup .list{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row-reverse;
+    }
+    .sm{
+        display: flex;
+    }
+    
+    .searchIcon{
+        margin: 0;
+        width: 22px;
+        height: 22px;
+    }
+    .navSearch{
+        background-color: transparent;
+    }
+    .navbar:has(.sm-active) .leftNavGroup{
+        position: absolute;
+        display: flex;
+        left: 0;
+        max-width: 400px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+    }
+    .navbar:has(.sm-active) .leftNavGroup .list-item{
+        text-align: start;
+        border: none;
+    }
+    .navbar:has(.sm-active) .leftNavGroup .logo{
+        display: none;
+    }
+    .navbar:has(.sm-active) .leftNavGroup .list-item:hover{
+        border: none;
+        padding: 28px 17px 28px;
+    }
+    .navbar:has(.sm-active) .leftNavGroup .list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: normal;
+        height: 100vh;
+        overflow-y: scroll;  
+    }
+    
+}
+
+@media screen and (min-width:1051px){
+    .sm,.user__container,.closeBtn{
+        display: none;
+    }
+    
+}
+

@@ -1,0 +1,78 @@
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 220px;
+  line-height: 1;
+  color: #282c3f;
+  margin: 5px 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 8px;
+}
+.price {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.strikePrice{
+  font-weight: 400;
+}
+.discount {
+  color: red;
+  font-weight: 400;
+}
+.description {
+  max-width: 220px;
+  line-height: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px 8px;
+}
+#del_btn{
+  background-color: red !important;
+}
+
+.indiv-tile-holder{
+  display: inline-block;
+  /* height: 400px; */
+  /* width: 300px !important; */
+  }
+.main__container{
+  border: 1px solid rgb(230, 217, 217) ;
+  display: inline-block;
+  margin: 20px;
+  
+}
+.delete_btn{
+  /* 
+  font-weight: 600;
+  
+  background-color: #d976bf;
+  outline: none;
+  border: none; */
+  padding: 10px 20px;
+  background: #d976bf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 100px;
+  margin: 8px 0;
+  margin-left: 20%;
+  
+}
+.delete_btn:hover{
+  background-color: #892d71;
+}
